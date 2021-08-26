@@ -1,16 +1,15 @@
 #include <stdio.h>
 
 /**
- * main - 
+ * main - print the string in stderr
  *
- * description nno use of printf and puts
- *
- *
- * return: 1
- *
+ * Description: using main function
+ * this program prints a message containing special character
+ * Return: 1
  */
 int main(void)
 {
-	fprintf( stderr, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n");
+	fprintf(stderr,
+		      "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n");
 	return (1);
 }
