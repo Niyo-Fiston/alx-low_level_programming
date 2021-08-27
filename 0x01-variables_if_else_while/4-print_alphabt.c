@@ -3,7 +3,7 @@
 /**
  * main - print string in putchar function
  *
- * Description:program to print alphabet in lowercase and uppercase
+ * Description:program to print alphabet in lowercase except q and e
  * Return: 0
  */
 int main(void)
@@ -12,10 +12,7 @@ int main(void)
 
 	for (i = 'a'; i <= 'z'; i++)
 	{
-		putchar(i);
-	}
-	for (i = 'A'; i <= 'Z'; i++)
-	{
+	if (i != 'q' && i != 'e')
 		putchar(i);
 	}
 	putchar('\n');
