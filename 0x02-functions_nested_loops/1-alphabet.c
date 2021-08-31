@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * Main - print print_alphabet function
+ * print_alphabet - print print_alphabet function
  *
- * Description:this function prints lower letters
+ * Description:this function print lower tetter alphabet
  * Return: 0
  */
 
