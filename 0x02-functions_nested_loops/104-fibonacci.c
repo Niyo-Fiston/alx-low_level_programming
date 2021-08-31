@@ -13,7 +13,7 @@ int main(void)
 	unsigned long i_1, i_2, j_1, j_2;
 	unsigned long _1, _2;
 
-	for (count = 0; count < 92; count++)
+	for (count = 0; count < 98; count++)
 	{
 		sum = i + j;
 		printf("%lu, ", sum);
