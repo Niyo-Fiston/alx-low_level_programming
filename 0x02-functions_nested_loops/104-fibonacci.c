@@ -9,9 +9,9 @@
 int main(void)
 {
 	int count;
-	long i = 0, i = 1, sum;
-	long i_1, i_2, j_1, j_2;
-	long _1, _2;
+	unsigned long i = 0, i = 1, sum;
+	unsigned long i_1, i_2, j_1, j_2;
+	unsigned long _1, _2;
 
 	for (count = 0; count < 92; count++)
 	{
