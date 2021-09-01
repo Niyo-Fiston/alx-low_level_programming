@@ -14,14 +14,14 @@ int main(void)
 	unsigned long b = 2;
 
 	printf("1, 2, ");
-	for (i = 3; i < 98; i++)
+	for (i = 3; i <= 98; i++)
 	{
 		c = a + b;
 		printf("%lu", c);
 		a = b;
 		b = c;
 
-		if (i < 90)
+		if (i <= 98)
 			printf(", ");
 	}
 	printf("\n");
