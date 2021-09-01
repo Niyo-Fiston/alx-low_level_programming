@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 
 /**
@@ -10,6 +11,8 @@ int main(void)
 	int i;
 
 	unsigned long c = 3;
+	unsigned long a = 1;
+	unsigned long b = 2;
 
 	printf("1, 2, ");
 	for (i = 3; i < 98; i++)
@@ -19,10 +22,12 @@ int main(void)
 		a = b;
 		b = c;
 
-
+					A
 		if (i < 98)
 			printf(", ");
 	}
+	printf("\n");
+
 
 	return (0);
 }
