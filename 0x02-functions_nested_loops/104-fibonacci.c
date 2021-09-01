@@ -11,7 +11,7 @@ int main(void)
 
 	unsigned long c;
 	unsigned long a = 1;
-	unsigned long b = 2;
+	unsigned long b;
 
 	for (i = 1; i < 98; i++)
 	{
