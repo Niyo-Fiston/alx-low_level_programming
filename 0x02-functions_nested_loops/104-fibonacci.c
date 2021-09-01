@@ -8,8 +8,7 @@
 int main(void)
 {
 	int i;
-	unsigned long a = 1;
-	unsigned long b = 2;
+
 	unsigned long c = 3;
 
 	printf("1, 2, ");
@@ -23,7 +22,7 @@ int main(void)
 
 		if (i < 98)
 			printf(", ");
-
+	}
 
 	return (0);
 }
