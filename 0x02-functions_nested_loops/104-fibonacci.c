@@ -11,9 +11,10 @@ int main(void)
 
 	unsigned long c;
 	unsigned long a = 1;
-	unsigned long b;
+	unsigned long b = 2;
 
-	for (i = 1; i < 98; i++)
+	printf("1, 2, ");
+	for (i = 3; i < 98; i++)
 	{
 		c = a + b;
 		printf("%lu", c);
